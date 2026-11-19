@@ -6,6 +6,28 @@ This project focuses on identifying and investigating data quality issues in a s
 
 The dataset was created with intentional data quality issues to practice data inspection, data cleaning, validation, and outlier detection.
 
+## Business Problem
+
+Sales datasets may contain missing values, duplicate records, inconsistent text, invalid numeric values, incorrect data types, and inaccurate sales calculations.
+
+These data-quality issues can affect the accuracy and reliability of business analysis and reporting.
+
+The objective of this project is to use Python, Pandas, NumPy, and Matplotlib to identify, investigate, and visualize data-quality issues in a synthetic sales dataset before further analysis.
+
+## Recommendations
+
+Based on the data-quality checks performed, the following actions are recommended:
+
+- **Handle Missing Values:** Investigate missing values and determine appropriate treatment instead of automatically replacing them.
+- **Remove Duplicates:** Identify and remove confirmed duplicate records.
+- **Standardize Text:** Apply consistent naming conventions to product, category, region, and payment method values.
+- **Validate Numeric Data:** Investigate zero and negative prices and quantities before using them in analysis.
+- **Verify Sales Calculations:** Check sales values against the expected Price × Quantity calculation and investigate mismatches.
+- **Review Potential Outliers:** Investigate unusually high or low values before deciding whether they are valid or require correction.
+- **Maintain Data Quality Checks:** Apply validation rules regularly to improve data reliability.
+
+**Expected Benefit:** Better data consistency, more reliable analysis, and improved confidence in business reporting.
+
 ## Tools & Technologies
 
 - Python
