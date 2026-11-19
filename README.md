@@ -102,3 +102,18 @@ Through this project, I practiced:
 ## Project Status
 
 Completed the initial data quality analysis and boxplot visualization. Further improvements and analysis may be added.
+
+## Overall Insights
+
+The analysis demonstrated how data-quality issues can affect the reliability of sales data.
+
+Key observations:
+
+- Identified missing values and duplicate records.
+- Detected inconsistent text values and incorrect data types.
+- Flagged zero and negative prices and quantities for investigation.
+- Validated sales calculations using Price × Quantity.
+- Used the IQR method to identify a potential price outlier.
+- Created boxplots using Matplotlib to visualize price distribution.
+
+**Conclusion:** Data cleaning, validation, and outlier detection are important steps before performing reliable business analysis. This project provided practical experience in identifying and investigating data-quality issues using Python.
